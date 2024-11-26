@@ -19,7 +19,6 @@
     "format:check": "prettier --check \"**/*.{js,jsx,yml,yaml,json,css,scss,md}\"",
     "format": "prettier --write \"**/*.{js,jsx,yml,yaml,json,css,scss,md}\""
   },
-  
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -39,6 +38,7 @@
     ]
   },
   "devDependencies": {
-    "prettier": "3.3.3"
+    "prettier": "3.3.3",
+    "semantic-release": "^24.2.0"
   }
 }
